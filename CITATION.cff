@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this research code, please cite the repository and the associated paper or article."
+title: "Vehicle Telemetry Reliability: Reproducibility Artifacts"
+type: software
+authors:
+  - family-names: Gopalakrishnan
+    given-names: Praveen Kumar
+version: 0.1.0
+date-released: 2026-10-21
+repository-code: "https://github.com/cgpraveenkumar24/vehicle-telemetry-reproducibility"
