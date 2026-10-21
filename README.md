@@ -15,6 +15,18 @@ The project is intended to support the research themes in *When the Phone Lies: 
 - How does a controlled coordinate-frame perturbation change vector-valued acceleration?
 - Can the analysis be rerun with documented parameters and produce machine-readable metrics and figures?
 
+## Validated case-study results
+
+The analysis includes two public-dataset case studies:
+
+- **CloudPose temporal alignment:** across a 341.8-second overlapping trace, MAE decreased from 1.2243 m/s to 0.4731 m/s and RMSE decreased from 1.7950 m/s to 0.6836 m/s after empirical alignment.
+- **Illinois coordinate-frame sensitivity:** a 11,804-observation smartphone driving trace is used to investigate coordinate-frame effects on acceleration measurements.
+
+Detailed metrics, interpretation, and limitations are documented in [`docs/validated_results.md`](docs/validated_results.md).
+
+These results are trace-specific and should not be interpreted as universal performance guarantees. Dataset files are not redistributed here.
+
+
 ## Repository layout
 
 ```text
