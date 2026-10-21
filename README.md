@@ -109,12 +109,3 @@ This is a **controlled sensitivity experiment**, not an orientation-estimation a
 ## Known limitations
 
 The scripts require explicit column mapping. Interpolation, timestamp parsing, and rotation assumptions must be checked against the actual dataset documentation. The scripts intentionally do not silently guess units for the smartphone speed or acceleration columns.
-
-## Related work
-
-- Article: *When the Phone Lies: Engineering Reliable Vehicle Telematics from Commodity Sensors* — add the final canonical article URL here when available.
-- Research paper(s): add final publication/DOI links and versions associated with each result.
-
-## License and attribution
-
-Code is licensed under the MIT License. Dataset terms remain separate; cite and comply with the original dataset providers' conditions.
